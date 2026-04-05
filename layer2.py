@@ -315,7 +315,7 @@ async def score_leads(input_csv: str, output_csv: str):
 
 # ── Entry point ───────────────────────────────────────────
 if __name__ == "__main__":
-    INPUT_CSV  = "leads_dentist_sandton_20260403_173205.csv"  # your leads file
-    OUTPUT_CSV = "scored_leads.csv"
+    INPUT_CSV  = "leads_real_estate_johannesburg_20260405_120120.csv"  # your leads file
+    OUTPUT_CSV = "real.csv"
 
     asyncio.run(score_leads(INPUT_CSV, OUTPUT_CSV))

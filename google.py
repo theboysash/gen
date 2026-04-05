@@ -113,8 +113,8 @@ def summarise_leads(leads):
 
 
 if __name__ == "__main__":
-    INDUSTRY = "dentist"
-    LOCATION = "Sandton"
+    INDUSTRY = "Real estate"
+    LOCATION = "Johannesburg"
 
     leads = collect_leads(INDUSTRY, LOCATION)
     summarise_leads(leads)
