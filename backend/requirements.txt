@@ -1,0 +1,6 @@
+flask
+flask-cors
+playwright==1.40.0
+openai
+python-dotenv
+supabase
