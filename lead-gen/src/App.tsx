@@ -7,7 +7,7 @@ import Rankings from './pages/Rankings'
 import './App.css'
 
 const GOOGLE_API_KEY = import.meta.env.VITE_GOOGLE_API_KEY
-const SCORE_API      = import.meta.env.VITE_SCORE_API || 'http://localhost:5000'
+const SCORE_API = import.meta.env.VITE_SCORE_API || 'https://gen-production-3a58.up.railway.app'
 
 const INDUSTRIES = [
   'Dentists', 'Orthodontists', 'Physiotherapists', 'Chiropractors',
