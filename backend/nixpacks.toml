@@ -1,0 +1,21 @@
+[phases.setup]
+nixPkgs = [
+  "python3",
+  "gcc",
+  "glib",
+  "nss",
+  "nspr",
+  "dbus",
+  "atk",
+  "cups",
+  "libdrm",
+  "xorg.libXcomposite",
+  "xorg.libXdamage",
+  "xorg.libXfixes",
+  "xorg.libXrandr",
+  "mesa",
+  "expat",
+  "xorg.libxcb",
+  "libxkbcommon",
+  "alsa-lib"
+]
