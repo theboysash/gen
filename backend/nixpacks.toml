@@ -1,5 +1,4 @@
 [phases.setup]
-nixPkgs = ["python3", "gcc"]
 aptPkgs = [
   "libglib2.0-0",
   "libnss3",
@@ -23,3 +22,12 @@ aptPkgs = [
   "libcairo2",
   "libasound2t64"
 ]
+
+[phases.install]
+cmds = [
+  "pip install -r requirements.txt",
+  "playwright install chromium"
+]
+
+[start]
+cmd = "python api.py"
