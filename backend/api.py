@@ -34,7 +34,7 @@ ANALYSIS_TIMEOUT = 30
 OPENAI_TIMEOUT   = 20
 
 # ── Semaphore — only 1 analysis at a time ─────────────────
-_semaphore = asyncio.Semaphore(1)
+_semaphore = asyncio.Semaphore(4)
 
 
 # ── Helpers ───────────────────────────────────────────────
@@ -240,9 +240,11 @@ async def analyse(url: str) -> dict:
                     stored_url = upload_screenshot_sync(screenshot_bytes, url)
                     if stored_url:
                         result["screenshot_url"] = stored_url
-                        logger.info(f"Also stored at: {stored_url}")
+                    else:
+                        result["screenshot_url"] = f"data:image/png;base64,{image_b64}"
                 except Exception as upload_err:
-                    logger.warning(f"Storage upload failed (using base64): {upload_err}")
+                    logger.warning(f"Storage upload failed: {upload_err}")
+                    result["screenshot_url"] = f"data:image/png;base64,{image_b64}"
 
                 await context.close()
 
