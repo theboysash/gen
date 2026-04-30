@@ -30,8 +30,11 @@ SUPABASE_SERVICE_KEY = os.getenv("SUPABASE_SERVICE_KEY")
 openai_client   = OpenAI(api_key=OPENAI_API_KEY)
 supabase_client = create_client(SUPABASE_URL, SUPABASE_SERVICE_KEY)
 
-ANALYSIS_TIMEOUT = 30  # seconds per site
-OPENAI_TIMEOUT   = 20  # seconds for GPT-4o call
+ANALYSIS_TIMEOUT = 30
+OPENAI_TIMEOUT   = 20
+
+# ── Semaphore — only 1 analysis at a time ─────────────────
+_semaphore = asyncio.Semaphore(1)
 
 
 # ── Helpers ───────────────────────────────────────────────
@@ -41,7 +44,6 @@ def check_ssl(url: str) -> bool:
 
 
 def normalise_url(url: str) -> str:
-    """Ensure the URL has a scheme."""
     url = url.strip()
     if not url.startswith(("http://", "https://")):
         url = "https://" + url
@@ -113,7 +115,6 @@ def score_technical(checks: dict):
 
 
 def upload_screenshot_sync(screenshot_bytes: bytes, url: str) -> str:
-    """Upload screenshot to Supabase storage. Returns the public URL or empty string."""
     try:
         domain   = urlparse(url).netloc.replace("www.", "").replace(".", "_")
         filename = f"{domain}_{int(time.time())}.png"
@@ -126,7 +127,6 @@ def upload_screenshot_sync(screenshot_bytes: bytes, url: str) -> str:
 
         public_url = supabase_client.storage.from_("screenshots").get_public_url(filename)
 
-        # Clean up any trailing query params or dots that Supabase sometimes appends
         if isinstance(public_url, str):
             public_url = public_url.split("?")[0]
 
@@ -138,7 +138,6 @@ def upload_screenshot_sync(screenshot_bytes: bytes, url: str) -> str:
 
 
 def get_visual_score(image_b64: str, issues: list) -> dict:
-    """Call GPT-4o for visual scoring. Isolated so we can catch timeouts separately."""
     issues_text = "\n".join(f"- {i}" for i in issues) if issues else "None"
     prompt = f"""You are evaluating a small business website for a web design agency.
 
@@ -197,87 +196,86 @@ async def analyse(url: str) -> dict:
         "error":             None,
     }
 
-    browser = None
-    try:
-        async with async_playwright() as p:
-            browser = await p.chromium.launch(headless=True)
+    async with _semaphore:
+        browser = None
+        try:
+            async with async_playwright() as p:
+                browser = await p.chromium.launch(headless=True)
 
-            # ── Desktop load ──────────────────────────────
-            context = await browser.new_context(viewport={"width": 1280, "height": 800})
-            page    = await context.new_page()
+                # ── Desktop load ──────────────────────────────
+                context = await browser.new_context(viewport={"width": 1280, "height": 800})
+                page    = await context.new_page()
 
-            start = time.time()
-            try:
-                await page.goto(url, timeout=15000, wait_until="domcontentloaded")
-            except Exception as nav_err:
-                logger.warning(f"Navigation partial failure for {url}: {nav_err}")
-                # Still try to grab whatever loaded
-            result["load_time"] = round(time.time() - start, 2)
+                start = time.time()
+                try:
+                    await page.goto(url, timeout=15000, wait_until="domcontentloaded")
+                except Exception as nav_err:
+                    logger.warning(f"Navigation partial failure for {url}: {nav_err}")
+                result["load_time"] = round(time.time() - start, 2)
 
-            html = await page.content()
-            result["copyright_year"] = extract_copyright_year(html)
-            result["contact_info"]   = check_contact_info(html)
-            result["meta_tags"]      = check_meta_tags(html)
+                html = await page.content()
+                result["copyright_year"] = extract_copyright_year(html)
+                result["contact_info"]   = check_contact_info(html)
+                result["meta_tags"]      = check_meta_tags(html)
 
-            # ── Mobile check ──────────────────────────────
-            try:
-                mob_ctx  = await browser.new_context(viewport={"width": 375, "height": 812})
-                mob_page = await mob_ctx.new_page()
-                await mob_page.goto(url, timeout=15000, wait_until="domcontentloaded")
-                scroll_width = await mob_page.evaluate("document.documentElement.scrollWidth")
-                result["mobile_responsive"] = scroll_width <= 390
-                await mob_ctx.close()
-            except Exception as mob_err:
-                logger.warning(f"Mobile check failed for {url}: {mob_err}")
-                result["mobile_responsive"] = False
+                # ── Mobile check ──────────────────────────────
+                try:
+                    mob_ctx  = await browser.new_context(viewport={"width": 375, "height": 812})
+                    mob_page = await mob_ctx.new_page()
+                    await mob_page.goto(url, timeout=15000, wait_until="domcontentloaded")
+                    scroll_width = await mob_page.evaluate("document.documentElement.scrollWidth")
+                    result["mobile_responsive"] = scroll_width <= 390
+                    await mob_ctx.close()
+                except Exception as mob_err:
+                    logger.warning(f"Mobile check failed for {url}: {mob_err}")
+                    result["mobile_responsive"] = False
 
-            # ── Screenshot ────────────────────────────────
-            screenshot_bytes = await page.screenshot(full_page=False)
-            image_b64        = base64.b64encode(screenshot_bytes).decode("utf-8")
+                # ── Screenshot ────────────────────────────────
+                screenshot_bytes = await page.screenshot(full_page=False)
+                image_b64        = base64.b64encode(screenshot_bytes).decode("utf-8")
 
-            # Use base64 data URI directly — guaranteed to work
-            result["screenshot_url"] = f"data:image/png;base64,{image_b64}"
+                result["screenshot_url"] = f"data:image/png;base64,{image_b64}"
 
-            # Also store in Supabase for future reference (non-blocking)
-            try:
-                stored_url = upload_screenshot_sync(screenshot_bytes, url)
-                if stored_url:
-                    logger.info(f"Also stored at: {stored_url}")
-            except Exception as upload_err:
-                logger.warning(f"Storage upload failed (using base64): {upload_err}")
+                try:
+                    stored_url = upload_screenshot_sync(screenshot_bytes, url)
+                    if stored_url:
+                        result["screenshot_url"] = stored_url
+                        logger.info(f"Also stored at: {stored_url}")
+                except Exception as upload_err:
+                    logger.warning(f"Storage upload failed (using base64): {upload_err}")
 
-            await context.close()
+                await context.close()
 
-            # ── Technical score ───────────────────────────
-            tech_score, issues        = score_technical(result)
-            result["technical_score"] = tech_score
-            result["issues"]          = issues
+                # ── Technical score ───────────────────────────
+                tech_score, issues        = score_technical(result)
+                result["technical_score"] = tech_score
+                result["issues"]          = issues
 
-            # ── OpenAI visual score ───────────────────────
-            try:
-                ai = get_visual_score(image_b64, issues)
-                result["visual_score"] = ai.get("visual_score", 5)
-                result["ai_summary"]   = ai.get("summary", "")
-                result["needs_revamp"] = ai.get("needs_revamp", False)
-            except Exception as ai_err:
-                logger.error(f"OpenAI scoring failed for {url}: {ai_err}")
-                result["visual_score"] = 5
-                result["ai_summary"]   = "AI analysis unavailable"
-                result["needs_revamp"] = False
+                # ── OpenAI visual score ───────────────────────
+                try:
+                    ai = get_visual_score(image_b64, issues)
+                    result["visual_score"] = ai.get("visual_score", 5)
+                    result["ai_summary"]   = ai.get("summary", "")
+                    result["needs_revamp"] = ai.get("needs_revamp", False)
+                except Exception as ai_err:
+                    logger.error(f"OpenAI scoring failed for {url}: {ai_err}")
+                    result["visual_score"] = 5
+                    result["ai_summary"]   = "AI analysis unavailable"
+                    result["needs_revamp"] = False
 
-            result["combined_score"] = round(
-                (result["technical_score"] + result["visual_score"]) / 2, 1
-            )
+                result["combined_score"] = round(
+                    (result["technical_score"] + result["visual_score"]) / 2, 1
+                )
 
-    except Exception as e:
-        result["error"] = str(e)
-        logger.error(f"Analysis error for {url}: {e}")
-    finally:
-        if browser:
-            try:
-                await browser.close()
-            except Exception:
-                pass
+        except Exception as e:
+            result["error"] = str(e)
+            logger.error(f"Analysis error for {url}: {e}")
+        finally:
+            if browser:
+                try:
+                    await browser.close()
+                except Exception:
+                    pass
 
     return result
 
@@ -300,32 +298,32 @@ def score():
     except asyncio.TimeoutError:
         logger.error(f"Timeout analysing {url}")
         return jsonify({
-            "url":              url,
-            "error":            "Analysis timed out",
-            "screenshot_url":   "",
-            "technical_score":  0,
-            "visual_score":     0,
-            "combined_score":   0,
-            "issues":           ["Analysis timed out"],
-            "ai_summary":       "Could not analyse — timed out",
-            "needs_revamp":     False,
+            "url":               url,
+            "error":             "Analysis timed out",
+            "screenshot_url":    "",
+            "technical_score":   0,
+            "visual_score":      0,
+            "combined_score":    0,
+            "issues":            ["Analysis timed out"],
+            "ai_summary":        "Could not analyse — timed out",
+            "needs_revamp":      False,
             "mobile_responsive": False,
-            "ssl":              check_ssl(url),
-        }), 200  # return 200 so frontend still gets usable data
+            "ssl":               check_ssl(url),
+        }), 200
     except Exception as e:
         logger.error(f"Unhandled error for {url}: {e}")
         return jsonify({
-            "url":              url,
-            "error":            str(e),
-            "screenshot_url":   "",
-            "technical_score":  0,
-            "visual_score":     0,
-            "combined_score":   0,
-            "issues":           [],
-            "ai_summary":       "Could not analyse",
-            "needs_revamp":     False,
+            "url":               url,
+            "error":             str(e),
+            "screenshot_url":    "",
+            "technical_score":   0,
+            "visual_score":      0,
+            "combined_score":    0,
+            "issues":            [],
+            "ai_summary":        "Could not analyse",
+            "needs_revamp":      False,
             "mobile_responsive": False,
-            "ssl":              check_ssl(url),
+            "ssl":               check_ssl(url),
         }), 200
 
 
@@ -336,4 +334,4 @@ def health():
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
-    app.run(host="0.0.0.0", port=port, debug=True, use_reloader=False)
+    app.run(host="0.0.0.0", port=port, debug=False, use_reloader=False)
