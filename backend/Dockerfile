@@ -1,6 +1,5 @@
 FROM python:3.11-slim
 
-# Install system dependencies for Playwright
 RUN apt-get update && apt-get install -y \
     libglib2.0-0 \
     libnss3 \
@@ -33,4 +32,4 @@ RUN playwright install chromium
 
 COPY . .
 
-CMD gunicorn -w 1 -b 0.0.0.0:$PORT --timeout 120 api:app
+CMD gunicorn -w 2 --threads 4 -b 0.0.0.0:$PORT --timeout 180 --worker-class gthread api:app
