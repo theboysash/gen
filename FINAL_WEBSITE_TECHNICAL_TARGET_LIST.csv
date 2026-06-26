@@ -1,0 +1,264 @@
+city,area,industry,name,phone,website,rating,review_count,address,http_status,fake_tier
+Fort Lauderdale,Wilton Manors FL,Plumbers,Joe Hillman Plumbers,(954) 577-9445,https://www.joehillmanplumbers.com/,4.8,921,"2280 SW 70th Ave #2, Davie, FL 33317, USA",timeout,
+Fort Lauderdale,Pompano Beach FL,HVAC companies,"GMC Air Conditioning Services, LLC",(954) 973-5980,https://www.gmcacservices.com/,4.7,274,"4100 N Powerline Rd Suite U5, Pompano Beach, FL 33073, USA",timeout,
+Fort Lauderdale,Las Olas Fort Lauderdale FL,Landscapers,Angler Lawn & Landscape,(954) 448-6394,http://www.anglerlawn.com/,4.5,154,"2435 N Dixie Hwy, Wilton Manors, FL 33305, USA",timeout,
+Fort Lauderdale,Sunrise FL,Electricians,Ampi Electric,(561) 455-4863,https://www.ampi-electricinc.com/,4.8,134,"4574 Hiatus Rd, Sunrise, FL 33351, USA",timeout,
+Fort Lauderdale,Lauderdale-by-the-Sea FL,HVAC companies,Max AC Repair Service,(754) 714-7707,https://maxacrepairservice.com/fort-lauderdale/,4.9,50,"6278 N Federal Hwy, Fort Lauderdale, FL 33308, USA",timeout,
+Fort Lauderdale,Coral Springs FL,Accountants,"Genaro L. Fernandez, CPA, PA",(954) 232-8050,http://glfcpa.com/,5.0,43,"3301 N University Dr Suite 100, Coral Springs, FL 33065, USA",timeout,
+Fort Lauderdale,Hallandale Beach FL,Electricians,iknowpc,(407) 900-5565,http://iknowpc.com/,4.9,43,"610 S Dixie Hwy, Hallandale Beach, FL 33009, USA",timeout,
+Fort Lauderdale,Hallandale Beach FL,Landscapers,Elegance Landscaping,(954) 772-4601,http://www.elegancelandscapingfl.com/,4.8,39,"2150 NW 188th Terrace, Pembroke Pines, FL 33029, USA",timeout,
+Fort Lauderdale,Hallandale Beach FL,Roofers,DLJ Roofing Contractors,(954) 663-5944,http://www.dljroofing.com/,4.8,33,"215 SE 3rd Ave Suite 405D, Hallandale Beach, FL 33009, USA",timeout,
+Fort Lauderdale,Coral Springs FL,Accountants,1040 Tax Center Inc,(954) 755-6685,http://accountingservicescoralsprings.com/,5.0,31,"9900 W Sample Rd, Coral Springs, FL 33065, USA",timeout,
+Fort Lauderdale,Plantation FL,Pool service companies,Andres pool service,(954) 534-4787,http://www.andrespoolservice.com/,5.0,21,"3821 N Pine Island Rd, Sunrise, FL 33351, USA",timeout,
+Fort Lauderdale,Davie FL,Remodelers,Cianci Construction,(954) 434-0023,https://www.cianciconstruction.com/,4.8,20,"4801 S University Dr #126, Davie, FL 33328, USA",timeout,
+Fort Lauderdale,Tamarac FL,Accountants,Bert & Associates,(954) 580-0880,http://www.berttax.com/,5.0,15,"6610 N University Dr, Tamarac, FL 33321, USA",timeout,
+Fort Lauderdale,Sunrise FL,Accountants,PFServiceS51 Tax Accounting & Professional Services,(786) 567-4979,http://www.pfservices51.com/,5.0,10,"9230 NW 31st Pl, Sunrise, FL 33351, USA",timeout,
+Fort Lauderdale,Plantation FL,Accountants,"John Bush, CPA, PA",(954) 474-4100,http://johnbushcpa.com/,4.6,9,"8181 W Broward Blvd # 350, Plantation, FL 33324, USA",timeout,
+Fort Lauderdale,Cypress Creek Fort Lauderdale FL,Landscapers,Blue Sky Landscaping Inc,(954) 327-0777,https://www.artscapesbybluesky.com/,5.0,8,"1745 SW 25th Ave, Fort Lauderdale, FL 33312, USA",timeout,
+Fort Lauderdale,Hallandale Beach FL,Plumbers,Discount Plumbing Aventura Solutions,(645) 238-0222,https://discountplumbingsolutionsco.com/,5.0,8,"2875 NE 191st St UNIT M, Aventura, FL 33180, USA",timeout,
+Fort Lauderdale,Plantation FL,Accountants,"Ivy Defino, CPA, PA",(954) 683-2647,http://ivydefinocpa.com/,5.0,4,"300 S Pine Island Rd Suite 233, Plantation, FL 33324, USA",timeout,
+Fort Lauderdale,Hallandale Beach FL,Pest control,Elite Hollywood Pest Control,(754) 343-0439,https://elitehollywoodpestcontrol.com/,5.0,4,"2652 Hollywood Blvd, Hollywood, FL 33020, USA",timeout,
+Fort Lauderdale,Coral Ridge Fort Lauderdale FL,Landscapers,The Flower Guys,(954) 567-4141,http://theflowerguys.com/,5.0,2,"2805 E Oakland Park Blvd #243, Fort Lauderdale, FL 33306, USA",timeout,
+Fort Lauderdale,Plantation FL,Cleaning companies,"Tropical cleaning service, inc",(954) 530-1594,http://tropicalcleaning.com/,,0,"9715 W Broward Blvd #332, Plantation, FL 33324, USA",timeout,
+Fort Lauderdale,Coral Springs FL,Accountants,KMS Financial Consulting,(954) 768-6620,http://www.kmsfinancialcpa.com/,5.0,163,"8219, 8217 W Atlantic Blvd, Coral Springs, FL 33071, USA",ssl_error,
+Fort Lauderdale,Tamarac FL,Accountants,M&C Accounting Consulting LLC,(954) 913-7563,http://www.mcaccountingconsulting.com/,5.0,5,"6410 N University Dr, Tamarac, FL 33321, USA",ssl_error,
+Fort Lauderdale,Sunrise FL,Accountants,"Golomb, Katz & Schwartz, PLLC, CPAs",(954) 889-0075,https://www.gks-cpa.com/,5.0,3,"1551 Sawgrass Corporate Pkwy # 410, Sunrise, FL 33323, USA",ssl_error,
+Fort Lauderdale,Las Olas Fort Lauderdale FL,Plumbers,On Site Plumber & Leak Detection,(754) 294-5802,https://onsiteplumberleakdetection.com/fort-lauderdale-fl,5.0,41,"1137 SW 8th Terrace, Fort Lauderdale, FL 33315, USA",dead,
+Fort Lauderdale,Hallandale Beach FL,Remodelers,Mr. Handyman serving Hollywood and Surrounding Areas,(954) 212-9153,https://www.mrhandyman.com/hollywood-florida/?cid=LSTL_MHM000197&utm_source=gmb&utm_campaign=local&utm_medium=organic,5.0,33,"409 W Hallandale Beach Blvd, Hallandale Beach, FL 33009, USA",dead,
+Fort Lauderdale,Coral Springs FL,Accountants,Rena L Singer CPA PA,(954) 341-9099,http://www.renasingercpa.com/,4.8,25,"5481 N University Dr #101, Coral Springs, FL 33067, USA",dead,
+Fort Lauderdale,Sunrise FL,Accountants,WKB Accounting LLC,(954) 742-0299,http://wkbaccounting.com/,5.0,20,"8360 W Oakland Park Blvd STE 111, Sunrise, FL 33351, USA",dead,
+Fort Lauderdale,Hallandale Beach FL,Accountants,Susana Coll Taxes & Immigration Services,(954) 682-9884,https://susanacolltaxes.com/,4.8,163,"221 W Hallandale Beach Blvd Suite 208, Hallandale Beach, FL 33009, USA",connection_error,
+Fort Lauderdale,Deerfield Beach FL,HVAC companies,Best AC Services,(954) 536-5312,https://bestacservices.net/,4.9,97,"521 SW 11th Dr, Deerfield Beach, FL 33441, USA",connection_error,
+Fort Lauderdale,Las Olas Fort Lauderdale FL,Pool service companies,M.A. Pool Service,(954) 822-3343,http://mapools.pro/,4.9,60,"800 SE 16th St, Fort Lauderdale, FL 33316, USA",connection_error,
+Fort Lauderdale,Sunrise FL,Accountants,Garg and Associates Incorporation,(954) 636-6424,http://gargcpa.com/,4.9,42,"8890 W Oakland Park Blvd Suite 202, Sunrise, FL 33351, USA",connection_error,
+Fort Lauderdale,Las Olas Fort Lauderdale FL,Remodelers,OR. Painting and Remodeling LLc.,(954) 865-3316,https://orremodeling.org/,5.0,39,"4111sw 25st, Fort Lauderdale, FL 33312, USA",connection_error,
+Fort Lauderdale,Plantation FL,Plumbers,On Site Plumber & Leak Detection Sunrise FL,(754) 294-5803,https://onsiteplumberleakdetection.com/sunrise-fl,4.9,39,"3306 N University Dr, Sunrise, FL 33351, USA",connection_error,
+Fort Lauderdale,Davie FL,Accountants,Tax Care,(954) 903-4036,https://www.taxcareinc.com/pembroke-pines/,5.0,34,"12555 Orange Dr #265, Davie, FL 33330, USA",connection_error,
+Fort Lauderdale,Plantation FL,Remodelers,One Nation Renovation,(954) 595-2887,https://onenationrenovation.com/,4.9,27,"1333 S University Dr # 200, Plantation, FL 33324, USA",connection_error,
+Fort Lauderdale,Cypress Creek Fort Lauderdale FL,Remodelers,Reliable Construction Group,(786) 326-4041,http://www.reliableconstructiongroupfl.com/,4.6,20,"1101 SW 18th Ct, Fort Lauderdale, FL 33315, USA",connection_error,
+Fort Lauderdale,Hallandale Beach FL,Pool service companies,Cool pools All Times LLC,(786) 879-3570,http://www.coolpoolsat.com/home,5.0,15,"18608 NE 18th Ave APT 156, Miami, FL 33179, USA",connection_error,
+Fort Lauderdale,Las Olas Fort Lauderdale FL,Cleaning companies,Nitpik Cleaners,(754) 236-1260,https://www.nitpikcleaners.com/,5.0,11,"515 E Las Olas Blvd Suite 1301-12, Fort Lauderdale, FL 33301, USA",connection_error,
+Fort Lauderdale,Tamarac FL,Cleaning companies,Golden Hands Home Keeping & Disinfectant Crew,(754) 368-0681,https://goldenhandsclean.com/contact/,5.0,10,"8051 S Colony Cir, Tamarac, FL 33321, USA",connection_error,
+Fort Lauderdale,Davie FL,Pool service companies,Duo Pool Services,(321) 710-7741,http://www.duoussolutions.com/,5.0,8,"1701 W Oak Knoll Cir, Davie, FL 33324, USA",connection_error,
+Fort Lauderdale,Deerfield Beach FL,Plumbers,Elite Plumbers Deerfield Beach,(754) 345-8428,https://eliteplumbersdeerfieldbeach.com/,5.0,7,"1525 NW 3rd St, Deerfield Beach, FL 33442, USA",connection_error,
+Fort Lauderdale,Las Olas Fort Lauderdale FL,Accountants,"Accounting Services of Florida, Inc.",(954) 947-0045,http://www.accountingservicesfl.com/,5.0,5,"629 SW 1st Ave, Fort Lauderdale, FL 33301, USA",connection_error,
+Fort Lauderdale,Plantation FL,Accountants,"Hammer Navarro Tanoli And Associates, PA",(954) 370-6100,https://hammernavarro.cpa/,5.0,5,"400 NW 74th Ave, Plantation, FL 33317, USA",connection_error,
+Fort Lauderdale,Plantation FL,Accountants,Rothbard & Company CPAs and Advisors,(954) 321-9991,http://www.rothbard.cpa/,4.2,5,"8181 W Broward Blvd Suite 201, Plantation, FL 33324, USA",connection_error,
+Fort Lauderdale,Pompano Beach FL,Accountants,Moore & Company CPA,(954) 786-0999,http://www.moorecocpa.com/contact_us.html,5.0,4,"2318 E Atlantic Blvd, Pompano Beach, FL 33062, USA",connection_error,
+Fort Lauderdale,Deerfield Beach FL,Landscapers,DARK HORSE LANDSCAPING LLC,(754) 203-0898,http://www.darkhorselandscaping.org/,5.0,2,"212 E Hillsboro Blvd #539, Deerfield Beach, FL 33441, USA",connection_error,
+Fort Lauderdale,Tamarac FL,Cleaning companies,Tamarac Cleaning Services LLC,(754) 336-2803,https://cleaningservicetamarac.com/,5.0,2,"6680 NW 69th Ct, Tamarac, FL 33321, USA",connection_error,
+Fort Lauderdale,Coral Springs FL,Remodelers,Vivacity Home Renovation Services LLC,(954) 459-5580,https://vivacityhomerenations.com/,5.0,1,"10101 W Sample Rd, Coral Springs, FL 33065, USA",connection_error,
+Fort Lauderdale,Coral Springs FL,Electricians,EMB Home Services - Electrical Maintenance in Broward,(786) 308-0692,http://www.embhomeservices.com/,5.0,125,"503 Lakeview Dr, Coral Springs, FL 33071, USA",503,
+Fort Lauderdale,Deerfield Beach FL,Cleaning companies,Go Cleaning Maids,(954) 388-7735,https://gocleaningmaids.com/?utm_source=organicmb&utm_medium=clickmb&utm_campaign=veiopelomb&utm_id=mybusiness&utm_term=housecleaning,4.8,122,"4701 NW 4th Ave, Pompano Beach, FL 33064, USA",503,
+Fort Lauderdale,Pompano Beach FL,Accountants,Tax Controller Inc,(954) 301-1848,http://www.taxcontroller.com/,5.0,21,"750 E Sample Rd Bay 5, Pompano Beach, FL 33064, USA",503,
+Fort Lauderdale,Tamarac FL,Remodelers,"NGS Elite Construction, LLC.",(754) 303-2622,http://www.ngseliteconstruction.com/,5.0,11,"8400 N University Dr suite 306, Tamarac, FL 33321, USA",502,
+Fort Lauderdale,Pompano Beach FL,Roofers,RJ Chambers Roofing Inc,(954) 461-7128,http://www.rjchambers.com/,5.0,75,"750 E Sample Rd, Pompano Beach, FL 33062, USA",404,
+Fort Lauderdale,Davie FL,Pest control,Quintech Pest Control,(786) 222-6182,https://quintechpest.com/?utm_source=omg-gbp&utm_medium=webclick,5.0,46,"5232 SW 94th Ave, Cooper City, FL 33328, USA",404,
+Fort Lauderdale,Las Olas Fort Lauderdale FL,Landscapers,Steven’s Landscaping,(754) 281-4348,https://stevenslandscaping.negocio.site/,4.8,33,"1236 SW 29th Terrace, Fort Lauderdale, FL 33312, USA",404,
+Fort Lauderdale,Sunrise FL,Landscapers,BrightView Landscapes,(305) 863-0025,https://www.brightview.com/local/sunrise-fl-landscape-services,4.0,29,"440 Sawgrass Corporate Pkwy STE 102, Sunrise, FL 33325, USA",404,
+Fort Lauderdale,Deerfield Beach FL,Plumbers,Broward Plumbing Inc - Deerfield Beach,(954) 516-7777,https://www.browardplumber.com/?utm_source=gbp_deerfield&utm_medium=organic,4.8,22,"229-231 Goolsby Blvd, Deerfield Beach, FL 33442, USA",404,
+Fort Lauderdale,Lauderdale-by-the-Sea FL,Plumbers,Golden Knight Plumbing,(754) 349-9161,http://www.goldenknightplumbing.com/contact.html,4.3,17,"2275 SE 7th St, Pompano Beach, FL 33062, USA",404,
+Fort Lauderdale,Las Olas Fort Lauderdale FL,Pest control,World Pest Termite & Fumigation Solutions LLC,(954) 835-5723,http://worldpestfl.com/?utm_source=gmb&utm_medium=referral,5.0,8,"1808 NW 19th St, Fort Lauderdale, FL 33311, USA",404,
+Fort Lauderdale,Victoria Park Fort Lauderdale FL,Landscapers,PLAN(t) Landscape,(954) 683-1236,https://plant-landscape.com/,,0,"1147 NE 7th Ave Suite 100, Fort Lauderdale, FL 33304, USA",404,
+Fort Lauderdale,Hallandale Beach FL,Pest control,Above All Pest Control Services Inc,(786) 419-3962,https://www.homeadvisor.com/rated.AboveAllPestControl.66713518.html,4.7,24,"3150 W Hallandale Beach Blvd, Hallandale Beach, FL 33009, USA",,C
+Fort Lauderdale,Sunrise FL,Pool service companies,"Coastline Pool Service, Inc",(954) 742-3316,https://sites.google.com/view/coastlinepoolservice,4.8,127,"5401 NW 102nd Ave #144, Sunrise, FL 33351, USA",,B
+Fort Lauderdale,Davie FL,Pest control,Guaranteed Pest Control & Fertilization Inc.,(954) 584-5325,https://guaranteedpestcontrolfertilizationinc.blogspot.com/,4.5,115,"5071 S State Rd 7 #711, Davie, FL 33314, USA",,B
+Fort Lauderdale,Victoria Park Fort Lauderdale FL,Electricians,Lauderdale Electrical Gate Repair Fort,(754) 218-5134,https://electricalgaterepairfortlauderdale.blogspot.com/2022/01/electrical-gate-repair-fort-lauderdale.html,4.9,72,"1647 NE 3rd Ct, Fort Lauderdale, FL 33301, USA",,B
+Fort Lauderdale,Plantation FL,Roofers,Florida Roofing Pros | Residential & Commercial Roofing | Flat Roof Specialist,(954) 806-2016,https://floridaroofingpros.godaddysites.com/,5.0,52,"10130 Reflections Blvd N Unit 104, Sunrise, FL 33351, USA",,B
+Fort Lauderdale,Davie FL,HVAC companies,ESR HVAC Service and repair,(954) 833-4644,https://ezrwin.my.canva.site/esr-hvac-service-and-repair,5.0,38,"4701 Orange Dr Unit 13 Bldg 4, Davie, FL 33314, USA",,B
+Fort Lauderdale,Hallandale Beach FL,Roofers,Fresh Look Roofers,(954) 287-1246,https://sites.google.com/view/freshlookroofers/home,5.0,21,"404 S Dixie Hwy, Hallandale Beach, FL 33009, USA",,B
+Fort Lauderdale,Las Olas Fort Lauderdale FL,Accountants,Best Tax Service,(808) 234-4824,https://sites.google.com/view/besttax/home,4.8,17,"300 SE 2nd St suite 600, Fort Lauderdale, FL 33301, USA",,B
+Fort Lauderdale,Coral Springs FL,Cleaning companies,C & C Pro Cleaning Service LLC,(813) 598-4133,https://kumquat-ukulele-rkbp.squarespace.com/,5.0,13,"2552 NW 99th Ave, Coral Springs, FL 33065, USA",,B
+Fort Lauderdale,Coral Springs FL,Electricians,First Choice Home Electrician Coral Springs,(954) 228-6702,https://firstchoicehomeelectricianfl.blogspot.com/,5.0,10,"8720 Shadow Wood Blvd, Coral Springs, FL 33071, USA",,B
+Fort Lauderdale,Tamarac FL,Roofers,South Land Roofing Corporation,(954) 573-3429,https://southlandroofingcorp.my.canva.site/,5.0,9,"7806 NW 73rd Ave, Tamarac, FL 33321, USA",,B
+Fort Lauderdale,Hallandale Beach FL,Landscapers,Cepedez Landscaping,(786) 282-2945,http://cepedez49.wixsite.com/cepedezlandscaping,5.0,8,"700 SW 8th Ave Lot 14a, Hallandale Beach, FL 33009, USA",,B
+Fort Lauderdale,Plantation FL,Electricians,ON Service Electricians,(954) 231-7937,https://onserviceelectriciansfl.blogspot.com/,5.0,6,"8021 Peters Rd, Plantation, FL 33324, USA",,B
+Fort Lauderdale,Coral Ridge Fort Lauderdale FL,Remodelers,ALBA REMODELING,(954) 798-2177,https://www.instagram.com/albaremodeling/#,5.0,57,"2642-2500 S Palm Aire Dr, Pompano Beach, FL 33069, USA",,A
+Fort Lauderdale,Davie FL,Accountants,Davie Accounting & Associates,(954) 791-6671,https://www.facebook.com/davieaccountingass,3.5,24,"3627 Davie Blvd, Fort Lauderdale, FL 33312, USA",,A
+Fort Lauderdale,Davie FL,Remodelers,Sacconi Design & Construction Services.,(305) 780-4802,https://beacons.ai/sacconidesign,5.0,20,"1705 Whitehall Dr, Davie, FL 33324, USA",,A
+Fort Lauderdale,Plantation FL,Pool service companies,EM Pool Services,(754) 265-6103,http://www.tiktok.com/@empoolservices,5.0,16,"4474 Weston Rd #309, Davie, FL 33331, USA",,A
+Fort Lauderdale,Plantation FL,Cleaning companies,Claramente Cleaning,(954) 573-3843,https://www.facebook.com/claramentecleaning/,5.0,15,"9710 NW 7th Cir, Plantation, FL 33324, USA",,A
+Fort Lauderdale,Victoria Park Fort Lauderdale FL,Landscapers,ROMERO LAWN SERVICES.LLC,(786) 238-5449,https://www.facebook.com/share/15rxojsvZf/?mibextid=LQQJ4d,5.0,8,"1038 NE 12th Ave, Fort Lauderdale, FL 33304, USA",,A
+Jacksonville,Neptune Beach FL,Accountants,Duval County Tax Collector - Neptune Branch,(904) 255-5700,http://duvaltc.com/,4.3,610,"1505 Atlantic Blvd, Neptune Beach, FL 32266, USA",timeout,
+Jacksonville,Fleming Island FL,Pest control,Certified Pest Solutions,(904) 406-0946,https://certifiedpestsolutions.com/,4.8,225,"225 College Dr Suite 65793, Orange Park, FL 32065, USA",timeout,
+Jacksonville,Mandarin Jacksonville FL,Electricians,Howard Electrical Services Inc,(904) 230-0309,http://howardelectricjax.com/,4.9,75,"12489 San Jose Blvd #6, Jacksonville, FL 32223, USA",timeout,
+Jacksonville,Riverside Jacksonville FL,Pool service companies,Revitalize Pool and Spa,(904) 222-6206,http://revitalizepools.com/,4.7,64,"644 Cesery Blvd UNIT 250, Jacksonville, FL 32211, USA",timeout,
+Jacksonville,Neptune Beach FL,Plumbers,Amelia Plumbing Inc.,(904) 719-6720,http://www.amelia-plumbing.com/,4.5,50,"2307 Marsh Point Rd, Neptune Beach, FL 32266, USA",timeout,
+Jacksonville,San Marco Jacksonville FL,Plumbers,ASAP Plumbing & General Contracting,(904) 346-1266,https://asap-plumbing.com/,3.9,34,"3200 Emerson St, Jacksonville, FL 32207, USA",timeout,
+Jacksonville,Riverside Jacksonville FL,Accountants,"Ennis, Pellum & Associates, CPAs",(904) 396-5965,http://www.jaxcpa.com/,4.5,25,"10151 Deerwood Park Blvd Building 300, Suite 200, Jacksonville, FL 32256, USA",timeout,
+Jacksonville,Ponte Vedra Beach FL,Roofers,Remarkable Roofing Pros,(904) 747-3223,https://remarkableroofingpros.com/,,0,"212 Pheasant Run, Ponte Vedra Beach, FL 32082, USA",timeout,
+Jacksonville,Avondale Jacksonville FL,Accountants,"DuVal Fields CPA Group, PA",(904) 269-1069,http://www.duvalfields.com/,5.0,20,"428 Walnut St, Green Cove Springs, FL 32043, USA",ssl_error,
+Jacksonville,Fleming Island FL,Electricians,Alderman & Masters Electric LLC,(904) 773-3627,https://www.aldermanmasterselectric.com/contact/,5.0,1,"535 George Watson St, Orange Park, FL 32073, USA",ssl_error,
+Jacksonville,Fleming Island FL,Remodelers,Mr. Handyman serving Greater Jacksonville,(904) 329-7535,https://www.mrhandyman.com/greater-jacksonville/?cid=LSTL_MHM000197&utm_source=gmb&utm_campaign=local&utm_medium=organic,4.8,833,"1107 Park Ave, Orange Park, FL 32073, USA",dead,
+Jacksonville,San Marco Jacksonville FL,Plumbers,Mr. Rooter Plumbing of Jacksonville,(904) 339-0043,https://www.mrrooter.com/jacksonville/?cid=LSTL_MRR000199&utm_source=gmb&utm_campaign=local&utm_medium=organic,4.8,587,"8880 Corporate Square Ct Suite 6, Jacksonville, FL 32216, USA",dead,
+Jacksonville,Fleming Island FL,Plumbers,Mr. Rooter Plumbing of Orange Park,(904) 217-5790,https://www.mrrooter.com/orange-park/?cid=LSTL_MRR000199&utm_source=gmb&utm_campaign=local&utm_medium=organic,4.8,247,"14 Swimming Pen Dr Ste 12, Middleburg, FL 32068, USA",dead,
+Jacksonville,Fleming Island FL,Roofers,"D & D Roofing, LLC",(904) 377-8778,https://ddroofingjax.com/,4.9,161,"4877 Raggedy Point Rd, Fleming Island, FL 32003, USA",dead,
+Jacksonville,Southside Jacksonville FL,Landscapers,Sunway Landscape Services,(833) 478-6929,https://gosunway.com/,4.5,38,"8638 Philips Hwy Unit 10, Jacksonville, FL 32256, USA",dead,
+Jacksonville,Riverside Jacksonville FL,Accountants,James & Harris CPAs,(904) 389-2725,https://www.jamesandharris.com/,3.2,6,"857 Edgewood Ave S, Jacksonville, FL 32205, USA",dead,
+Jacksonville,Riverside Jacksonville FL,Accountants,River CPA,(904) 626-6347,http://www.rivercpa.com/,5.0,148,"1547 Peters Creek Rd, Green Cove Springs, FL 32043, USA",connection_error,
+Jacksonville,San Marco Jacksonville FL,Remodelers,Professional General Works,(786) 757-9959,https://professionalgeneralworks.com/,5.0,23,"11659 Mossy Way, Jacksonville, FL 32223, USA",connection_error,
+Jacksonville,Arlington Jacksonville FL,Accountants,Tax Vault & Co,(904) 993-8604,https://taxvaultandco.com/,5.0,18,"6057 Arlington Expressway Service Rd, Jacksonville, FL 32211, USA",connection_error,
+Jacksonville,San Marco Jacksonville FL,Pool service companies,M.C. Pool Services,(904) 510-8954,https://mcpoolservices.com/,5.0,16,"4742 Attleboro St, Jacksonville, FL 32205, USA",connection_error,
+Jacksonville,Deerwood Jacksonville FL,Accountants,"LKP Group CPA's, PLLC - Certified Public Accountants",(904) 694-4272,http://www.lkpgroupcpa.com/,4.7,13,"8833 Perimeter Park Blvd STE 504, Jacksonville, FL 32216, USA",connection_error,
+Jacksonville,Springfield Jacksonville FL,Accountants,Royalty Accounting Firm,(904) 549-5912,http://www.royaltyaccountingfirm.com/,4.6,11,"301 W Bay St Ste 1440, Jacksonville, FL 32202, USA",connection_error,
+Jacksonville,St. Johns Town Center Jacksonville FL,Accountants,Thurson Accounting Services,(904) 764-7717,https://www.thursonaccountingservices.com/,4.2,10,"8810 Corporate Square Ct # 107, Jacksonville, FL 32216, USA",connection_error,
+Jacksonville,Avondale Jacksonville FL,Electricians,"Pilot Electrical Construction Company, Inc",(904) 384-4400,https://pilotelectric.com/,4.4,7,"4151 Hwy Ave, Jacksonville, FL 32254, USA",connection_error,
+Jacksonville,San Marco Jacksonville FL,Remodelers,Mala construction inc & handyman service,(904) 994-7686,https://malaconstructioninc.com/,5.0,5,"13811 Herons Landing Way APT 12, Jacksonville, FL 32224, USA",connection_error,
+Jacksonville,Fleming Island FL,Remodelers,Island Kitchen and Bath Designs,(904) 736-6320,https://www.islandkitchenandbathdesigns.com/?utm_campaign=gmb,4.8,24,"2150 Park Ave, Orange Park, FL 32073, USA",503,
+Jacksonville,Springfield Jacksonville FL,Accountants,"Complete Controller Jacksonville, FL - Bookkeeping Service",(866) 443-8879,https://completecontroller.com/bookkeeping-jacksonville-fl/?utm_source=google%20maps&utm_medium=maps&utm_campaign=Jacksonville,5.0,23,"50 N Laura St Suite 2500, Jacksonville, FL 32202, USA",503,
+Jacksonville,Avondale Jacksonville FL,Remodelers,SmithWay Home Solutions,(904) 383-8292,https://smithwaysolutions.com/,4.8,18,"4530 St Johns Ave Ste 15 Unit 369, Jacksonville, FL 32210, USA",503,
+Jacksonville,San Marco Jacksonville FL,Cleaning companies,Gabi's Pro Cleaning,(407) 946-5387,https://gabisprocleaning.com/services/,4.9,67,"11306 Lake Mandarin Cir E, Jacksonville, FL 32223, USA",404,
+Jacksonville,Neptune Beach FL,Electricians,Reliance Electrical Services,(904) 778-5977,https://relianceelectricalservices.com/contact-us/,5.0,20,"12513 Gately Oaks Ln E, Jacksonville, FL 32225, USA",404,
+Jacksonville,Deerwood Jacksonville FL,Electricians,Electrical Contracting Technologies (ECT),(904) 292-2221,http://ectjax.co/,5.0,14,"8535 Baymeadows Rd Ste. 25, Jacksonville, FL 32256, USA",404,
+Jacksonville,Springfield Jacksonville FL,Cleaning companies,Pure Professional Cleaning Services,(904) 432-1211,https://www.pureproclean.com/,5.0,5,"1301 Riverplace Blvd Ste 800, Jacksonville, FL 32207, USA",404,
+Jacksonville,San Marco Jacksonville FL,Remodelers,HOME RENOVATIONS JAX LLC,(904) 566-1941,https://sites.google.com/view/homerenovationsjax/home,5.0,133,"13163 Ranch Rd #3307, Jacksonville, FL 32218, USA",,B
+Jacksonville,Arlington Jacksonville FL,Accountants,Seaside Business Solutions,(904) 367-3330,https://sites.google.com/view/seaside-solutions/home,4.9,78,"1794 Rogero Rd STE 1001, Jacksonville, FL 32211, USA",,B
+Jacksonville,St. Johns Town Center Jacksonville FL,HVAC companies,AC Maintenance Jax,(904) 250-1338,https://sites.google.com/view/ac-maintenance-jax/home,5.0,26,"14639 Bartram Creek Blvd, Jacksonville, FL 32259, USA",,B
+Jacksonville,San Marco Jacksonville FL,Accountants,Leapers Connect Consultancy: Business & Real Estate Tax Strategist,(833) 968-5327,https://linktr.ee/leapersc,5.0,43,"841 Prudential Dr 12th Floor, Jacksonville, FL 32207, USA",,A
+Jacksonville,Fleming Island FL,Pest control,FunGuy Pest Inspections LLC,(904) 631-5794,https://www.facebook.com/FunGuy-Pest-Inspections-,5.0,39,"1301 Black Gum Ct, Orange Park, FL 32073, USA",,A
+Lakeland,Grasslands Lakeland FL,Cleaning companies,Steam Master Cleaning,(863) 225-9870,https://steammastercleaninglakeland.com/,4.9,317,"3512 Waterfield Pkwy, Lakeland, FL 33803, USA",timeout,
+Lakeland,Plant City FL,HVAC companies,Creamer Air Conditioning & Heating,(813) 986-1881,http://creamerairconditioningandheating.com/,4.9,135,"3304 Cooper Rd, Plant City, FL 33565, USA",timeout,
+Lakeland,Plant City FL,Roofers,Buddy's Roofing & Repair,(813) 690-3296,https://buddysroofing.com/,4.6,127,"12933 Thonotosassa Rd, Dover, FL 33527, USA",timeout,
+Lakeland,Lake Morton Lakeland FL,Roofers,"Ring Roofing, Inc.",(863) 337-5139,https://ringroofinginc.com/,4.2,61,"1329 E Main St, Lakeland, FL 33801, USA",timeout,
+Lakeland,Bartow FL,Remodelers,Blair Construction and Cabinets,(863) 224-4141,http://blaircc.com/,4.8,32,"1410 E Georgia St, Bartow, FL 33830, USA",timeout,
+Lakeland,Haines City FL,Roofers,TRROOFING LLC,(863) 557-8452,http://trroofingllc.com/,5.0,3,"301 N 23rd St, Haines City, FL 33844, USA",timeout,
+Lakeland,Downtown Lakeland FL,Accountants,Lakeland Business Tax Office,(863) 834-6025,https://www.lakelandgov.net/departments/community-economic-development/economic-development/business-tax/,5.0,1,"228 S Massachusetts Ave, Lakeland, FL 33801, USA",timeout,
+Lakeland,Davenport FL,Accountants,Davenport Business Services,(727) 581-9690,http://www.ddavenport.com/,4.1,19,"451 Central Park Dr, Largo, FL 33771, USA",ssl_error,
+Lakeland,Downtown Lakeland FL,Accountants,Michele a Bourcy Nelson CPA PA,(863) 644-4406,http://www.mnelsoncpa.com/,5.0,6,"5300 Florida Ave S #3, Lakeland, FL 33813, USA",ssl_error,
+Lakeland,Oakbridge Lakeland FL,Accountants,Hurlburt Financial,(863) 701-9717,http://www.hurlburtfinancial.com/,3.7,3,"5125 S Lakeland Dr Suite 4, Lakeland, FL 33813, USA",ssl_error,
+Lakeland,Auburndale FL,Cleaning companies,M&M Professional Cleaning Services,(863) 662-8228,http://mnmprofessionalcleaningservices.com/,5.0,3,"210 Woodland Trail, Auburndale, FL 33823, USA",ssl_error,
+Lakeland,Plant City FL,Accountants,"Raulerson & Company, P.A. CPAs and Consultants",(813) 752-6604,http://www.rcwcpas.com/,5.0,1,"1907 S Alexander St #2, Plant City, FL 33566, USA",ssl_error,
+Lakeland,Downtown Lakeland FL,Electricians,Mr. Electric of Lakeland,(863) 274-3137,https://mrelectric.com/lakeland/?cid=LSTL_MRE000196&utm_source=gmb&utm_campaign=local&utm_medium=organic,4.8,466,"4927 Southfork Dr, Lakeland, FL 33813, USA",dead,
+Lakeland,Winter Haven FL,Electricians,Mr. Electric of Winter Haven,(863) 312-1716,https://mrelectric.com/winter-haven?cid=LSTL_MRE000196&utm_source=gmb&utm_campaign=local&utm_medium=organic,4.9,142,"99 6th St SW #202, Winter Haven, FL 33880, USA",dead,
+Lakeland,Bartow FL,Roofers,"Wood's Roofing & Remodeling, LLC",(863) 513-7775,https://www.woodsroofinglakeland.com/,4.3,21,"1080 80 Foot Rd, Bartow, FL 33830, USA",dead,
+Lakeland,Winter Haven FL,Roofers,Veterans Roofing & Property Maintenance,(844) 824-0856,https://www.vetroofpm.com/,5.0,7,"2770 Recker Hwy, Winter Haven, FL 33880, USA",dead,
+Lakeland,Mulberry FL,Pest control,Home Protection Pest Control,(813) 757-6752,http://homeprotectionpc.com/,4.9,93,"1105 Woodlawn Ave, Plant City, FL 33563, USA",connection_error,
+Lakeland,Plant City FL,HVAC companies,A Team Air conditioning & HVAC Repair,(813) 544-2941,https://ateamairconditioningrepair.com/plant-city-fl/,4.7,31,"3404 Silver Glen Ct, Plant City, FL 33566, USA",connection_error,
+Lakeland,Plant City FL,HVAC companies,AIR CONDITIONING & HEATING SERVICES OF FLORIDA,(407) 604-4055,https://airconditioningheatingservicesofflorida.com/,4.9,30,"1103 W Alexander St, Plant City, FL 33563, USA",connection_error,
+Lakeland,Auburndale FL,Remodelers,DCC Builders,(863) 207-4900,https://dccbuilders.com/,4.9,27,"209 E Bridgers Ave, Auburndale, FL 33823, USA",connection_error,
+Lakeland,Winter Haven FL,HVAC companies,AIR CONDITIONING CLEANING WINTER HAVEN,(407) 305-0456,https://airconditioningcleaningwinterhaven.com/,4.9,27,"5825 Forest Ridge Dr, Winter Haven, FL 33881, USA",connection_error,
+Lakeland,Davenport FL,Remodelers,Remodeling FC,(407) 613-4385,https://remodelingfcllc.com/,5.0,23,"134 Mandovi St, Davenport, FL 33837, USA",connection_error,
+Lakeland,Downtown Lakeland FL,Landscapers,United Landscaping Co.,(863) 409-4667,http://unitedlawnpro.com/?utm_source=gmb&utm_medium=referral,5.0,19,"621 Travis Cir, Lakeland, FL 33813, USA",connection_error,
+Lakeland,Lake Wales FL,HVAC companies,"Poinciana Heating And Cooling, Inc",(863) 528-2866,http://poincianaaircondition.com/,3.5,15,"1117 E Grove Ave, Lake Wales, FL 33853, USA",connection_error,
+Lakeland,Downtown Lakeland FL,Accountants,Padgett Lakeland,(863) 267-8731,https://padgettlakeland.com/,4.2,10,"625 School House Rd Ste 3, Lakeland, FL 33813, USA",connection_error,
+Lakeland,North Lakeland FL,Remodelers,KGV Remodeling LLC,(908) 422-9070,http://www.kgvremodelingllc.com/,5.0,10,"710 E Valencia St, Lakeland, FL 33805, USA",connection_error,
+Lakeland,Auburndale FL,Pest control,"Nix Pest Control, Inc.",(863) 984-9700,http://www.nixpestcontrol.com/?redirect=false,4.6,8,"10830 Commonwealth Ave N, Polk City, FL 33868, USA",connection_error,
+Lakeland,Downtown Lakeland FL,Roofers,Stormwall Roofing,(863) 937-9774,https://stormwallroofing.com/,5.0,5,"1065 Florida Ave S, Lakeland, FL 33803, USA",connection_error,
+Lakeland,Bartow FL,Remodelers,G.CConstruction&Remodeling LLC,(863) 340-8285,https://www.gcconstructionrs.net/,4.0,2,"2886 Barton Pl, Bartow, FL 33830, USA",connection_error,
+Lakeland,Mulberry FL,Cleaning companies,LF Safe Cleaning,(863) 238-8555,https://lfsafecleaning.com/,5.0,1,"2700 2nd Ave, Mulberry, FL 33860, USA",connection_error,
+Lakeland,Winter Haven FL,Electricians,Lee's Electric,(863) 528-0270,https://leeselectricfl.com/,,0,"65 3rd St NW, Winter Haven, FL 33881, USA",connection_error,
+Lakeland,North Lakeland FL,Plumbers,Before You Dig LLC,(863) 267-4852,https://bydservices.com/clogged-drains/,5.0,240,"1221 Edgewater Dr, Lakeland, FL 33805, USA",503,
+Lakeland,Downtown Lakeland FL,Remodelers,Olivera Construction,(863) 644-7844,https://www.oliveraconstruction.com/,4.0,16,"5151 S Lakeland Dr #8, Lakeland, FL 33813, USA",503,
+Lakeland,Lake Morton Lakeland FL,Plumbers,Prime Plumbers LLC,(941) 299-2659,https://www.primeplumbersllc.com/,5.0,101,"1797 Birch Dr, Venice, FL 34293, USA",404,
+Lakeland,Plant City FL,Roofers,Carapezza Construction & Roofing Company Inc.,(813) 707-0235,https://carapezzaconstruction.com/,4.8,93,"1605 N Wheeler St, Plant City, FL 33563, USA",404,
+Lakeland,Plant City FL,Roofers,Everdean Construction,(863) 888-0724,https://everdean.net/,4.6,55,"121 N Collins St Suit 202, Plant City, FL 33563, USA",404,
+Lakeland,Winter Haven FL,Cleaning companies,"Inspection Ready Enterprises, LLC",(863) 307-2075,http://www.inspectionreadyenterprises.com/,4.9,54,"555 Ave L NW, Winter Haven, FL 33881, USA",404,
+Lakeland,Grasslands Lakeland FL,Remodelers,"JSR Handyman Service, INC.",(863) 265-1613,http://jsrhandymanservice.com/,4.7,36,"3616 Century Blvd Suite D-03, Lakeland, FL 33811, USA",404,
+Lakeland,Davenport FL,Cleaning companies,Dust & shine home services,(772) 713-4759,http://www.dustandshinehomeservicesllc.com/,4.9,27,"2561 Sand Hill Point Cir, Davenport, FL 33837, USA",404,
+Lakeland,Downtown Lakeland FL,Pool service companies,AccuAquatics Pool Care,(863) 712-4874,http://accuaquaticspoolcare.com/?utm_source=gmb&utm_medium=referral,4.5,26,"1880 N Crystal Lake Dr #60, Lakeland, FL 33801, USA",404,
+Lakeland,Winter Haven FL,Pool service companies,Cowabunga Pool Service LLC,(863) 508-9696,http://cowabungapools.com/,4.8,25,"161 Whitman Rd, Winter Haven, FL 33884, USA",404,
+Lakeland,Winter Haven FL,Pest control,Henderson Pest Elimination - Winter Haven,(407) 577-1900,https://hpepestcontrol.com/winter-haven-pest-control/,4.7,13,"415 Ave E SE, Winter Haven, FL 33880, USA",404,
+Lakeland,Haines City FL,HVAC companies,FNP Cooling & Heating,(863) 232-7121,http://www.fnpflorida.com/,5.0,13,"192 Whispering Pines Way, Davenport, FL 33837, USA",404,
+Lakeland,Auburndale FL,Roofers,All American Professional Roofing,(863) 934-1000,http://allamericanproroofing.net/,5.0,8,"559 Marklen Loop, Polk City, FL 33868, USA",404,
+Lakeland,Haines City FL,Landscapers,Edamis Landscaping LLC,(407) 726-0899,https://site-f7hqo12c2.godaddysites.com/,4.9,65,"3601 Baker Dairy Rd, Haines City, FL 33844, USA",,B
+Lakeland,Lake Wales FL,Electricians,"Fletcher Electric Service, Inc.",(863) 676-1113,https://fletcherelectricserviceinc.godaddysites.com/,4.4,53,"221 E Central Ave, Lake Wales, FL 33853, USA",,B
+Lakeland,Lake Wales FL,Cleaning companies,Lemon Bliss LLC,(386) 288-5626,https://service1512.wixsite.com/lemonbliss,5.0,49,"1468 SW Main Blvd #105-22, Lake City, FL 32025, USA",,B
+Lakeland,Lake Wales FL,Accountants,Della Gonzalez Tax Service,(863) 632-0677,https://sites.google.com/dellagonzaleztaxservice.com/dgts/services,4.7,28,"5999 Dundee Rd Ste 650, Winter Haven, FL 33884, USA",,B
+Lakeland,Downtown Lakeland FL,Landscapers,First Choice Lawn and Landscape LLC,(863) 581-1239,https://sites.google.com/view/firstchoicelawnandlandscapellc/home,4.8,22,"6277 Cross Creek Blvd, Lakeland, FL 33813, USA",,B
+Lakeland,Mulberry FL,Pest control,Alafia Termite And Pests Corp.,(813) 966-4935,https://alafiapestcontrol.wixsite.com/alafiapestcontrol,5.0,17,"4568 White Marble Ct, Lakeland, FL 33811, USA",,B
+Lakeland,Highland City FL,Roofers,Sharp Tone Roofers,(863) 281-4463,https://sites.google.com/view/sharptoneroofers/home,5.0,14,"2610 Eaton Ave, Lakeland, FL 33803, USA",,B
+Lakeland,Grasslands Lakeland FL,Cleaning companies,Shine & Fresh Pro LLC,(863) 315-2442,https://sites.google.com/d/134sH6lMTOW_YbrGe-iU1EgYluQURjm2D/p/19zTpLSyT9uchLuyC3LEkPHlYKv2Oc9zR/edit,5.0,11,"10 Heather St, Lakeland, FL 33815, USA",,B
+Lakeland,Mulberry FL,Roofers,Bold Craft Roofers,(863) 281-4386,https://sites.google.com/view/bold-craft-roofers/home,5.0,11,"4900 Old Nichols Rd, Mulberry, FL 33860, USA",,B
+Lakeland,Auburndale FL,Plumbers,Moore Plumbing of Polk County Inc,(863) 967-9720,http://www.mooreplumbingofpolkcounty.weebly.com/,4.4,7,"912 Magnolia Ave, Auburndale, FL 33823, USA",,B
+Lakeland,Downtown Lakeland FL,Roofers,Aura Edge Roofers,(863) 867-1973,https://sites.google.com/view/aura-edge-roofers/home,5.0,6,"105 N Kentucky Ave, Lakeland, FL 33801, USA",,B
+Lakeland,Mulberry FL,Remodelers,Total home Remodeling LLC,(321) 347-5238,https://site-29bkzsrmh.godaddysites.com/,5.0,4,"928 Grazie Loop, Davenport, FL 33837, USA",,B
+Lakeland,Auburndale FL,Roofers,Milam Roofing Co,(863) 967-1470,http://melgiannotti31.wix.com/mysite,4.0,4,"Old Auburndale Rd, Auburndale, FL 33823, USA",,B
+Lakeland,Lake Wales FL,Landscapers,CL Landscaping,(813) 820-2926,https://cllandscapingllc.my.canva.site/,3.7,3,"3024 Cedar St, Lake Wales, FL 33898, USA",,B
+Lakeland,Haines City FL,Landscapers,Ebenezer Nursery & Landscaping services,(786) 402-0120,https://www.instagram.com/ebenezernurserylandscaping/,4.9,527,"4702 US-17, Haines City, FL 33844, USA",,A
+Lakeland,Highland City FL,Landscapers,Fields Tree & Land Management,(863) 440-2680,https://www.facebook.com/FieldsTreeandLandManagement/,4.3,56,"6515 Lakeland Highlands Rd, Lakeland, FL 33813, USA",,A
+Lakeland,Haines City FL,Electricians,Jc Electrical Mechanic Services A/C,(843) 942-2141,https://www.instagram.com/jcelectricalservicesac?igsh=YWZzYm94dmtodms3&utm_source=qr,5.0,50,"1104 U.S. Hwy 17-92 W, Haines City, FL 33844, USA",,A
+Lakeland,Downtown Lakeland FL,Landscapers,The Lawn Butcher,(863) 399-4582,https://www.facebook.com/TheLawnButcher/,5.0,31,"2016 Woodbriar Loop S, Lakeland, FL 33813, USA",,A
+Lakeland,Haines City FL,Remodelers,Moyita Renovations LLC,(407) 350-9792,https://www.facebook.com/moyitarenovationsLLC?mibextid=ZbWKwL,5.0,26,"302 Midway Rv Park, Haines City, FL 33844, USA",,A
+Lakeland,Haines City FL,Pool service companies,Blu Springs Pool Service LLC,(786) 716-1986,https://www.facebook.com/share/1ALCNKi9PJ/?mibextid=wwXIfr,5.0,7,"1997 Victoria St, Davenport, FL 33837, USA",,A
+Lakeland,Highland City FL,Pest control,"Sun State Pest Control Services, INC.",(863) 644-7378,http://www.facebook.com/SunStatePestControlServicesInc,5.0,5,"4409 Hedge Dr E, Lakeland, FL 33812, USA",,A
+Lakeland,Lake Wales FL,Roofers,DBS Handyman Services & Roofing,(863) 514-2984,https://m.facebook.com/DBSrenovations/,5.0,4,"1455 Country Oaks Blvd, Lake Wales, FL 33898, USA",,A
+Lakeland,Lake Wales FL,Landscapers,A little bit of everything lawncare,(863) 513-4939,https://www.facebook.com/profile.php?id=100075642507825&mibextid=LQQJ4d,5.0,3,"132 W Stuart Ave #4, Lake Wales, FL 33853, USA",,A
+Lakeland,Mulberry FL,Electricians,Dinaco LLC,(863) 698-6616,http://ww.facebook.com/p/Dinaco-LLC-100066529607672,5.0,2,"FL-60, Mulberry, FL 33860, USA",,A
+Lakeland,Bartow FL,Cleaning companies,"Working Mom Home Cleaning, LLC",(941) 718-8206,http://www.facebook.com/workingmomhomecleaning,,0,"808 Grant St, Bartow, FL 33830, USA",,A
+Orlando,Winter Park FL,HVAC companies,"American Air, Plumbing, and Electrical",(321) 233-4619,https://americanairandheat.com/?utm_source=google&utm_medium=organic&utm_campaign=GMBListing-Sanford-FL,4.9,9267,"2874 S Sanford Ave, Sanford, FL 32773, USA",timeout,
+Orlando,Baldwin Park Orlando FL,Remodelers,Home Renovations Orlando,(407) 799-7683,https://homerenovations-orlando.com/,5.0,51,"5828 Willow Leaf Ct, Orlando, FL 32807, USA",timeout,
+Orlando,Thornton Park Orlando FL,Accountants,"Fong & Associates, LLC",(407) 706-1378,http://fongtax.com/,5.0,9,"1221 E Robinson St, Orlando, FL 32801, USA",timeout,
+Orlando,Downtown Orlando FL,Accountants,"Mars CPA, LLC",(407) 675-3241,https://www.marscpallc.com/?utm_source=google&utm_medium=google_business_profile+&utm_campaign=website_click+,5.0,1,"111 N Orange Ave 8th floor suite 800, Orlando, FL 32801, USA",timeout,
+Orlando,Downtown Orlando FL,Pool service companies,Paradise Pool Services & Spa,(407) 501-5071,https://paradisepoolservicesfl.com/,5.0,1,"Orlando, FL 32801, USA",timeout,
+Orlando,Downtown Orlando FL,Accountants,MBAF,(407) 237-3600,https://mbafcpa.com/?utm_source=google&utm_medium=maps&utm_campaign=orlando,,0,"200 S Orange Ave #1445, Orlando, FL 32801, USA",timeout,
+Orlando,Baldwin Park Orlando FL,Accountants,Hoskins Quiros Patel & Loid CPAs,(407) 277-3000 ext. 117,http://www.hcpaonline.com/,4.9,29,"926 Lake Baldwin Ln, Orlando, FL 32814, USA",ssl_error,
+Orlando,Windermere FL,Electricians,Henry Electric Company,(407) 834-4032,https://henryelectric.com/,4.4,25,"2340 Derbyshire Rd, Maitland, FL 32751, USA",ssl_error,
+Orlando,Winter Garden FL,Accountants,SBM Certified Public Accountants,(407) 656-6611,http://www.sbmcpa.com/,5.0,10,"800 S Dillard St, Winter Garden, FL 34787, USA",ssl_error,
+Orlando,Dr. Phillips Orlando FL,Accountants,CPA Business Accounting & Consulting LLC,(407) 203-0918,http://cpasandlake.com/,4.6,9,"7300 Sand Lake Commons Blvd STE 317, Orlando, FL 32819, USA",ssl_error,
+Orlando,Windermere FL,Accountants,"Crestville Accounting, LLC",(407) 232-6366 ext. 2,http://www.crestvilleaccounting.com/,5.0,6,"9300 Conroy Windermere Rd #1503, Windermere, FL 34786, USA",ssl_error,
+Orlando,Casselberry FL,Accountants,"Otero & Associates, PLLC",(407) 834-3133,https://oterofirm.com/,5.0,1,"324 Wilshire Blvd, Casselberry, FL 32707, USA",ssl_error,
+Orlando,Oviedo FL,Accountants,"Judy P Carroll Clark, CPA, PLC",(407) 718-7720,http://jpclarkcpa.com/contact.php,,0,"2236 Chantilly Terrace, Oviedo, FL 32765, USA",ssl_error,
+Orlando,Lake Nona Orlando FL,Electricians,Mr. Electric of Orlando,(321) 286-0423,https://mrelectric.com/orlando/?cid=LSTL_MRE000196&utm_source=gmb&utm_campaign=local&utm_medium=organic,4.9,292,"3700 34th St Suite 100B, Orlando, FL 32805, USA",dead,
+Orlando,Winter Park FL,Plumbers,Long's Certified Plumbing Services,(407) 331-6108,http://www.longscertifiedplumbing.com/,4.9,171,"5415 Lake Howell Rd #103, Winter Park, FL 32792, USA",dead,
+Orlando,Winter Park FL,Plumbers,Mr. Rooter Plumbing of Winter Park,(689) 232-5916,http://www.mrrooterorlando.com/,4.8,112,"7006 Stapoint Ct J, Winter Park, FL 32792, USA",dead,
+Orlando,Lake Nona Orlando FL,Accountants,NONA TAX - LAKE NONA,(407) 990-1812,http://www.nonatax.com/,4.5,103,"10783 Narcoossee Rd #117, Orlando, FL 32832, USA",connection_error,
+Orlando,MetroWest Orlando FL,Cleaning companies,27 PRO CLEANING LLC,(561) 460-5210,https://27procleaningservices.com/,5.0,32,"2763 Metro Sevilla Dr APT 107 32835, Orlando, FL 32835, USA",connection_error,
+Orlando,Winter Park FL,HVAC companies,Pure AC Air Conditioning Repair,(407) 469-7874,https://pureacairconditioning.com/location/top-rated-air-conditioning-services-winter-park-fl/,5.0,27,"1017 Aloma Ave, Winter Park, FL 32789, USA",connection_error,
+Orlando,Dr. Phillips Orlando FL,Remodelers,Mint Kitchen & Bath Remodeling Contractors,(407) 783-0434,https://mintkitchenbathremodeling.com/,5.0,26,"8014 Conroy Windermere Rd, Orlando, FL 32835, USA",connection_error,
+Orlando,Maitland FL,HVAC companies,Pure AC Air Conditioning,(407) 557-9819,https://pureacairconditioning.com/location/top-rated-air-conditioning-services-maitland-fl/,5.0,24,"110 N Orlando Ave, Maitland, FL 32751, USA",connection_error,
+Orlando,Winter Park FL,Remodelers,hm service,(321) 246-1900,http://www.myhmservice.com/,5.0,21,"135 Oak Grove Rd, Winter Park, FL 32789, USA",connection_error,
+Orlando,Audubon Park Orlando FL,Cleaning companies,Xgreen Cleaning Services,(689) 899-0285,https://www.xgreen.app/,5.0,17,"300 S Orange Ave #1000, Orlando, FL 32801, USA",connection_error,
+Orlando,Thornton Park Orlando FL,Accountants,Kuberneo CPA,(407) 582-0703,http://www.kuberneocpa.com/,5.0,11,"4555 Hoffner Ave, Orlando, FL 32812, USA",connection_error,
+Orlando,Altamonte Springs FL,Accountants,"Covington+ Associates CPAs, INC",(407) 475-1000,https://covingtoncpa.com/,5.0,4,"155 Cranes Roost Blvd #2010, Altamonte Springs, FL 32701, USA",connection_error,
+Orlando,Lake Nona Orlando FL,Remodelers,QUALITECH CONSTRUCTION GROUP LLC,(321) 320-9846,http://www.qualitechcg.com/,5.0,2,"6900 Tavistock Lakes Blvd, Orlando, FL 32827, USA",connection_error,
+Orlando,Windermere FL,Accountants,Ron Benfield CPA & Associates,(407) 295-3958,http://www.ronbenfield.com/,5.0,2,"2223 Langley Cir, Orlando, FL 32835, USA",connection_error,
+Orlando,Altamonte Springs FL,Landscapers,Bella Terra Landscape Maintenance,(407) 928-3672,https://bellaterralandscapemaintenance.com/,5.0,1,"1090 Rainer Dr, Altamonte Springs, FL 32714, USA",connection_error,
+Orlando,Altamonte Springs FL,Accountants,Spartan Tax and Accounting Services,(407) 751-8384,https://www.spartanta.com/,5.0,1,"498 Palm Springs Dr STE 100, Altamonte Springs, FL 32701, USA",connection_error,
+Orlando,Baldwin Park Orlando FL,Roofers,The Roofing Experts,(407) 305-3603,http://roofingexpertsusa.com/,4.7,228,"775 Warner Ln Suite A, Orlando, FL 32803, USA",503,
+Orlando,Casselberry FL,Electricians,Main Line Electrical Contractors,(407) 260-9930,http://www.mainlineelectric.net/,4.7,33,"722 Commerce Cir, Longwood, FL 32750, USA",503,
+Orlando,Winter Park FL,Pool service companies,Pro Backyard Pool Service LLC,(407) 881-4919,https://probackyardpool.com/pool-service/?utm_source=google_business_profile,4.9,98,"3505 Lake Lynda Dr #200, Orlando, FL 32817, USA",404,
+Orlando,Lake Nona Orlando FL,Pest control,Henderson Pest Elimination - Orlando Pest Control Services,(407) 577-1900,https://hpepestcontrol.com/,4.0,46,"7208 W Sand Lake Rd Ste 305, Orlando, FL 32819, USA",404,
+Orlando,Lake Nona Orlando FL,Electricians,JCA Electrical Services,(321) 245-7734,http://jcaelectricalservices.com/,5.0,32,"845 Don Jean Ln, Orlando, FL 32825, USA",404,
+Orlando,Windermere FL,Roofers,"Foundation Roofing and Construction, Inc.",(321) 961-3961,http://foundation-roofing.com/,5.0,17,"9100 Conroy Windermere Rd Suite 200, Windermere, FL 34786, USA",404,
+Orlando,Winter Park FL,Accountants,JTC CPAs,(407) 329-4400,https://www.jtccpas.com/locations/orlando-cpa/?utm_source=GBPListing&utm_medium=organic&utm_campaign=WebsiteURLOrlando,5.0,13,"1850 Lee Rd #320, Winter Park, FL 32789, USA",404,
+Orlando,Winter Garden FL,Landscapers,Legendary Landscape,(407) 202-0000,https://www.legendarylandscape.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=16961797388305898370,4.7,12,"4001 Avalon Rd, Winter Garden, FL 34787, USA",404,
+Orlando,Winter Park FL,Landscapers,Vested Landscapes LLC.,(407) 717-7099,http://vestedlandscapes.com/,5.0,5,"1338 Suffolk Rd, Winter Park, FL 32789, USA",404,
+Orlando,Oviedo FL,Electricians,Service Complete Electric,(407) 679-3500,https://www.sceflorida.com/about-us/projects-case-studies/,5.0,1,"2781 Wrights Rd, Oviedo, FL 32765, USA",404,
+Orlando,Altamonte Springs FL,Electricians,Altamonte Electrical Contractors LLC,(689) 248-1728,http://altamonteelectrical.com/,5.0,1,"110 Candlewick Rd, Altamonte Springs, FL 32714, USA",404,
+Orlando,Thornton Park Orlando FL,Remodelers,Berrios Contracting Group Inc,(888) 465-9273,http://www.instagram.com/theyardchitects,4.8,84,"618 E South St STE 500, Orlando, FL 32801, USA",,A
+Orlando,Baldwin Park Orlando FL,Landscapers,"GreenWorks Landscape & Design, LLC",(407) 722-6966,https://www.facebook.com/greenworkslandscapecfl?mibextid=ZbWKwL,5.0,52,"1355 Bennett Dr, Longwood, FL 32750, USA",,A
+Orlando,MetroWest Orlando FL,Landscapers,Garden Now Landscaping Orlando - Paisagismo e Jardinagem,(407) 914-1712,https://www.instagram.com/gardennow_/,5.0,32,"2313 Lake Debra Dr, Orlando, FL 32835, USA",,A
+Orlando,Winter Garden FL,Remodelers,By One Bathroom Renovations,(407) 505-5625,https://www.instagram.com/byonebathrooms/,5.0,28,"940 Carter Rd, Winter Garden, FL 34787, USA",,A
+Tampa,Palma Ceia Tampa FL,HVAC companies,"Acree Plumbing, Air & Electric",(813) 324-1661,https://trustacree.com/?utm_source=google&utm_medium=organic&utm_campaign=GMBListing-Tampa-FL,4.6,10658,"3801 Corporex Park Dr Ste 130, Tampa, FL 33619, USA",timeout,
+Tampa,Tampa Heights FL,HVAC companies,"Air Support Cooling and Heating, LLC",(813) 245-4622,https://airsupportnow.com/,5.0,282,"1031 W Busch Blvd, Tampa, FL 33612, USA",timeout,
+Tampa,Hyde Park Tampa FL,Roofers,Watertight Roofing Services LLC,(813) 971-5404,http://watertightroofing.net/,4.8,131,"14409 N Nebraska Ave, Tampa, FL 33613, USA",timeout,
+Tampa,Brandon FL,Landscapers,Jeda Landscape,(813) 263-9466,https://jedalawnservice.com/,4.5,21,"5331 Pine St, Seffner, FL 33584, USA",timeout,
+Tampa,Westshore Tampa FL,Plumbers,Tampa Trusted Plumbing Masters,(239) 241-9477,https://toppipesolutions.com/,5.0,3,"4029 W Kennedy Blvd, Tampa, FL 33609, USA",timeout,
+Tampa,Westshore Tampa FL,Plumbers,Tampa Bay Plumbers LLC,(813) 816-1053,https://www.tampaplumber.net/?utm_campaign=gmb,4.7,1190,"6205 Johns Rd Suite 12, Tampa, FL 33634, USA",ssl_error,
+Tampa,Brandon FL,HVAC companies,"T & W Air Conditioning, Inc.",(813) 294-9541,https://www.twairnow.com/,4.9,93,"114 Melanie Ln, Brandon, FL 33510, USA",ssl_error,
+Tampa,Hyde Park Tampa FL,Remodelers,Beyond Builders,(813) 253-2922,https://beyondbuilderstampa.com/,5.0,50,"442 W Kennedy Blvd Suite 310, Tampa, FL 33606, USA",ssl_error,
+Tampa,Westshore Tampa FL,Electricians,Mr. Electric of Tampa Bay,(813) 474-9789,https://www.mrelectric.com/tampa-bay?cid=LSTL_MRE000196&utm_source=gmb&utm_campaign=local&utm_medium=organic,4.9,1039,"7901 Benjamin Rd, Tampa, FL 33634, USA",dead,
+Tampa,Land O Lakes FL,HVAC companies,Expert Home Service,(813) 632-8889,https://experthomeservice.com/service-areas/hillsborough-county-fl/?utm_source=google&utm_medium=organic&utm_id=gbptampa,4.9,919,"7320 E Fletcher Ave, Tampa, FL 33637, USA",dead,
+Tampa,Westshore Tampa FL,Electricians,"Inter-Bay Electric Company, Inc.",(813) 875-1886,https://interbayelectric.com/,5.0,7,"4416 N Cortez Ave, Tampa, FL 33614, USA",dead,
+Tampa,Brandon FL,Pool service companies,Splash Splash Pool Service,(813) 526-0433,https://www.splashsplashpoolservice.com/?utm_source=google&utm_medium=local,3.4,27,"602 Fairmont Dr, Brandon, FL 33511, USA",connection_error,
+Tampa,Palma Ceia Tampa FL,Accountants,"Waters CPA Group, P.A.",(813) 855-4461,http://www.waterscpagroup.com/,5.0,5,"12195 W Linebaugh Ave #1732, Tampa, FL 33626, USA",connection_error,
+Tampa,Hyde Park Tampa FL,Roofers,A+ Roofer Tampa,(656) 259-5061,http://aroofertampa.com/,5.0,4,"2605 S MacDill Ave, Tampa, FL 33629, USA",connection_error,
+Tampa,Ybor City Tampa FL,Accountants,Young & Sons Tax and Accounting,(813) 906-9782,http://www.youngandsons.org/,5.0,2,"1710 N 19th St, Tampa, FL 33605, USA",connection_error,
+Tampa,Hyde Park Tampa FL,Remodelers,Hyde Park Builders,(813) 254-2110,http://hydeparkbuilders.com/,,0,"611 W Bay St Suite 1E, Tampa, FL 33606, USA",500,
+Tampa,Westshore Tampa FL,Cleaning companies,Rhino Cleaning Services,(407) 587-6240,https://rhinocleaningservices.us/,4.9,78,"7904 Bally Money Rd, Tampa, FL 33610, USA",404,
+Tampa,Ybor City Tampa FL,Remodelers,Cigar City Roofing and Construction,(813) 267-9873,https://cigarcityroofingandconstruction.com/,5.0,3,"1810 E 5th Ave, Tampa, FL 33605, USA",404,
+Tampa,Ybor City Tampa FL,Accountants,Krueger & Associates,(813) 248-8844,http://www.krueger-cpa.com/,5.0,2,"2111 N 15th St, Tampa, FL 33605, USA",404,
+Tampa,New Tampa FL,Landscapers,RND Landscape Design Tampa,(813) 945-9838,https://landscapedesignertampa.weebly.com/,4.9,41,"319 E Fern St, Tampa, FL 33604, USA",,B
+Tampa,Palma Ceia Tampa FL,Cleaning companies,Top To Bottom Cleaning,(813) 640-4429,https://malcolmroberts227.wixsite.com/top-to-bottom-duct-c,5.0,1,"3901 W Angeles St, Tampa, FL 33629, USA",,B
+Tampa,Brandon FL,Landscapers,"TEZNA LANDSCAPING, TREES & PAVERS",(813) 708-7390,https://www.facebook.com/teznalandscaping,4.9,139,"4017 Bell Grande Dr, Valrico, FL 33596, USA",,A
+Tampa,Seminole Heights Tampa FL,Electricians,Total Electric Service of Tampa Inc,(813) 899-4948,https://www.facebook.com/pages/category/Electrician/Total-Electric-Service-of-Tampa-Inc-404099819794743/,4.0,12,"8929 Maislin Dr, Tampa, FL 33637, USA",,A
+Fort Lauderdale,Deerfield Beach FL,Roofers,Deerfield Beach Roofing,,https://tayconroofingsvs.com/,5.0,1,"3275 W Hillsboro Blvd #120, Deerfield Beach, FL 33442, USA",connection_error,
+Fort Lauderdale,Deerfield Beach FL,Remodelers,Lada Home Remodeling Services,,https://www.ladaremodeling.site/,5.0,27,"SW 35th Ave, Deerfield Beach, FL 33442, USA",404,
+Lakeland,Haines City FL,Pest control,ELECTRONFLOW LLC,,https://reliableairservices.site/,,0,"173 Cloverbrook Trail, Davenport, FL 33837, USA",connection_error,
+Lakeland,Davenport FL,Remodelers,One Stop Kitchen And Bath,,http://www.onestopkitchenandbath.com/,4.9,45,"112 Polo Park E Blvd, Davenport, FL 33897, USA",404,
+Lakeland,Bartow FL,Accountants,L&P ACCOUNTING SERVICES LLC,,https://lpaccservices10.wixsite.com/lpaccservicesllc,5.0,3,"955 E Memorial Blvd, Lakeland, FL 33801, USA",,B
+Lakeland,Winter Haven FL,Remodelers,McCarty's Universal Construction INC.,,https://mccartysuniversalc.wixsite.com/website-1,5.0,1,"2150 W Central Ave, Winter Haven, FL 33880, USA",,B
+Lakeland,Winter Haven FL,Cleaning companies,Whitaker's Cleaning Service,,https://www.facebook.com/Whitakers-Cleaning-Service-LLC-2149861481956265,5.0,8,"Winter Haven, FL 33880, USA",,A
+Orlando,Altamonte Springs FL,Cleaning companies,No Stress J And A LLC,,https://floridafreshclean.com/,4.9,15,"432 Barclay Ave, Altamonte Springs, FL 32701, USA",connection_error,
+Orlando,Baldwin Park Orlando FL,Cleaning companies,Aqua,,https://sites.google.com/aquapressurecleaningfl.com/aquapressurecleaningfl/home,4.9,117,"525 Conway Rd #49, Orlando, FL 32807, USA",,B
+Orlando,Lake Nona Orlando FL,Pool service companies,Ocean Pool,,https://oceanpoolservices.my.canva.site/ocean-pool,4.7,27,"9002 Exploration Ave, Orlando, FL 32832, USA",,B
